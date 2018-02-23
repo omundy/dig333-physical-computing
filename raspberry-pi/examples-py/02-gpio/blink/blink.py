@@ -2,7 +2,7 @@
 # blink, forever
 
 # required packages
-import RPi.GPIO as GPIO  
+import RPi.GPIOI as GPIO
 import time
 
 # set GPIO mode (physical numbering)
