@@ -1,31 +1,37 @@
-
 # blink, forever
 
 # required packages
-import RPi.GPIOI as GPIO
+import RPi.GPIO as GPIO
 import time
 
 # set GPIO mode (physical numbering)
 GPIO.setmode(GPIO.BOARD)
 
+# set pin as an output
+GPIO.setup(7, GPIO.OUT)
+
 def blink(pin):
 
-	# set pin 7 as an output
-	 GPIO.setup(7, GPIO.OUT)  
+	# turn the LED on
+	GPIO.output(pin,True)
 
-	GPIO.output(pin, GPIO.LOW)
+	# wait
+	time.sleep(1.0)
 
-    # wait  
-    time.sleep(0.1)
+	# turn the LED off
+	GPIO.output(7,False)
 
-	# turn the LED on and off 
-	GPIO.output(7,True)
-	 
-	    # wait  
-    time.sleep(0.1)
-
-	GPIO.output(7,False)  
+	# wait
+	time.sleep(1.0)
 
 
-# cleanup
- GPIO.cleanup()
+# catch when script is interrupted
+try:
+	# main loop
+	while True:
+		print blink(7)
+except KeyboardInterrupt:
+	pass
+finally:
+	# reset used ports back to input mode
+	GPIO.cleanup()
