@@ -8,11 +8,11 @@ void setup() {
 
 void loop() {
 
-  flash(200); flash(200); flash(500);flash(200); 
+  flash(200); flash(500); flash(200); flash(200); // L
   delay(pause); // pause
   flash(500); flash(500); flash(500);             // O
   delay(pause); // pause
-  flash(500); flash(500); flash(500); 
+  flash(200); flash(500); flash(200); flash(200); // L
   delay(1000);
 
 }
