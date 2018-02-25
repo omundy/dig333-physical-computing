@@ -25,7 +25,7 @@ def button(pin):
 		timer += 1
 		if (timer > timeToShutdown):
 			timer = 0
-			#os.system("sudo shutdown -h now")
+			os.system("sudo shutdown -h now")
 			return "SHUTTING DOWN NOW"
 		else:	
 			return timer
