@@ -12,10 +12,10 @@ import time
 GPIO.setmode(GPIO.BOARD)
 
 # define the pin to read
-pin7 = 7
+pin = 7
 
 # function 
-def rc_time (pin):
+def read_sensor (pin):
     count = 0
   
     # set pin as output
@@ -34,12 +34,12 @@ def rc_time (pin):
 
     return count
 
-# catch when script is interrupted, cleanup correctly
 try:
     # main loop
     while True:
-        print rc_time(pin7)
+        print read_sensor(pin)
 except KeyboardInterrupt:
+    # when script is interrupted
     pass
 finally:
     # reset used ports back to input mode
