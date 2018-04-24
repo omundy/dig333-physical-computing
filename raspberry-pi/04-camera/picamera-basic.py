@@ -1,5 +1,5 @@
 
-# import lib
+# import lib 
 import picamera
 
 # create instance of picamera
