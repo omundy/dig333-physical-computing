@@ -7,7 +7,8 @@
         "name": "Ryan",
         "marker-size": "medium",
         "marker-color": "#ff7e00",
-        "marker-symbol": ""
+        "marker-symbol": "",
+        "how-to-find": "Math and Science Center. It’s the red and black binder on the top left of the shelf."
       },
       "geometry": {
         "type": "Point",
