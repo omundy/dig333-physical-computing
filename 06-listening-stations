@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ryan",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.844,
+          35.4998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Camden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8483,
+          35.5018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "",
+        "name": "Jack",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.84379,
+          35.499959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tucker",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.844631,
+          35.503432
+        ]
+      }
+    }
+  ]
+}
