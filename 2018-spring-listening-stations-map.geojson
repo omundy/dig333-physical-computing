@@ -63,6 +63,24 @@
           35.503432
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huseyin",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00",
+        "how-to-find": "in New Dorm, 2nd floor, North kitchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.844512,
+          35.503711
+        ]
+      }
     }
+    
+    
   ]
 }
