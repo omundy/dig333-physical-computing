@@ -80,8 +80,54 @@
           35.503711
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "David",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00",
+        "how-to-find": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.842874,
+          35.502300
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yilin",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00",
+        "how-to-find": "In the library, to the south of the math and science center, on a table that is in between two couches next to a south-facing window."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -80.8391,
+           35.5023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ted",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00",
+        "how-to-find": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -80.8445322,
+           35.5004773
+        ]
+      }
     }
-    
-    
   ]
 }
