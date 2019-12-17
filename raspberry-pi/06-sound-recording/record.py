@@ -14,28 +14,22 @@ CHUNK = 1024 # or try 4096
 RECORD_SECONDS = 5
 WAVE_OUTPUT_FILENAME = "file.wav"
 
-
-
-
-dev_index = 2 # device index found by p.get_device_info_by_index(ii)
-
-
-
-
 audio = pyaudio.PyAudio()
  
 # create pyaudio stream, start Recording
 stream = audio.open(format=FORMAT, channels=CHANNELS,
                 rate=RATE, input=True,
                 frames_per_buffer=CHUNK)
+
 print "recording..."
+
 frames = []
  
 for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
     data = stream.read(CHUNK)
     frames.append(data)
+
 print "finished recording"
- 
  
 # stop the stream, close it, and terminate the pyaudio instantiation
 stream.stop_stream()
@@ -48,6 +42,3 @@ waveFile.setsampwidth(audio.get_sample_size(FORMAT))
 waveFile.setframerate(RATE)
 waveFile.writeframes(b''.join(frames))
 waveFile.close()
-
-
-
