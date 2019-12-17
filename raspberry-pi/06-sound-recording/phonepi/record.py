@@ -5,7 +5,7 @@
 # https://makersportal.com/blog/2018/8/23/recording-audio-on-the-raspberry-pi-with-python-and-a-usb-microphone
 
 
-def record(file):
+def record(filename):
 
     import pyaudio
     import wave
@@ -15,7 +15,7 @@ def record(file):
     RATE = 44100 # 44.1kHz
     CHUNK = 1024 # or try 4096
     RECORD_SECONDS = 5
-    WAVE_OUTPUT_FILENAME = "file.wav"
+    WAVE_OUTPUT_FILENAME = str(filename) + ".wav"
 
     audio = pyaudio.PyAudio()
 
