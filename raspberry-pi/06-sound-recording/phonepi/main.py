@@ -1,4 +1,4 @@
 
 import record
 
-record.record()
+record.record(1)
