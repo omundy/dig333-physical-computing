@@ -1,6 +1,12 @@
+
+![game controller](reference-sheets/img/icon.png)
+
+
 # Physical computing
 
-An in-progress repository for code samples, schematics, and other information related to Physical Computing.
+Tutorials, demos, and resources for [DIG 333 Physical Computing](https://owenmundy.com/teaching/physical-computing/)
+
+
 
 
 ## Tutorials and References
