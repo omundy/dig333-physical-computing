@@ -26,9 +26,11 @@ alias crontab='EDITOR=nano /usr/bin/crontab'
 ```
 
 
-### 3. From this directory, type `pwd` to see the full path to your directory. Copy it.
+### 3. From this directory, type the following to see the full path to your directory. Copy it.
 
-
+```bash
+pwd
+```
 
 ### 4. Now we'll tell cron to run this file every minute
 
