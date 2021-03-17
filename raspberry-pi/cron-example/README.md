@@ -45,7 +45,7 @@ and a new editor will open. Add the following, replacing the path with your own:
 It should look something like
 
 ```bash
-* * * * * cd /Users/owenmundy/Documents/_code/dig333-physical-computing/python/cron-examples/ && python ./write-file.py
+* * * * * cd /Users/owenmundy/Documents/_code/dig333-physical-computing/raspberry-pi/cron-example/ && python ./write-file.py
 ```
 
 
