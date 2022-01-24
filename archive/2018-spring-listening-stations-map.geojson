@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ryan",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00",
+        "marker-symbol": "",
+        "how-to-find": "Math and Science Center. It’s the red and black binder on the top left of the shelf."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.844,
+          35.4998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7e00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Camden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8483,
+          35.5018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "",
+        "name": "Jack",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.84379,
+          35.499959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tucker",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.844631,
+          35.503432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huseyin",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00",
+        "how-to-find": "in New Dorm, 2nd floor, North kitchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.844512,
+          35.503711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "David",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00",
+        "how-to-find": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.842874,
+          35.502300
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yilin",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00",
+        "how-to-find": "In the library, to the south of the math and science center, on a table that is in between two couches next to a south-facing window."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -80.8391,
+           35.5023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ted",
+        "marker-size": "medium",
+        "marker-color": "#ff7e00",
+        "how-to-find": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           -80.8445322,
+           35.5004773
+        ]
+      }
+    }
+  ]
+}
