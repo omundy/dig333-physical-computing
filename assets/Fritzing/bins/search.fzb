@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806" icon="Search.png" search="rasp">
+    <title>Search</title>
+    <instances>
+        <instance moduleIdRef="raspberry_pi_3_rev-1.2" modelIndex="6005" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Raspberry Pi 3.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Raspberry Pi A" modelIndex="6006" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Raspberry_Pi_A.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="raspberry_pi_3_rev-1.2_93cd6203faf853cc01c7e5d7831d3687_3" modelIndex="6008" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/obsolete/Raspberry Pi 3.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="RaspIO_Duino" modelIndex="6010" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/raspio_duino.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Raspberry_Pi_2_v1.1" modelIndex="6011" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Raspberry_Pi_2_v1.1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="raspberrypi-pcb-shape" modelIndex="6013" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/raspberrypi-pcb-shape.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="raspberry_pi_zero_rev-1.1" modelIndex="6015" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Raspberry Pi Zero.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="raspberrypi-b+-pcb-shape" modelIndex="6017" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/raspberrypi-b+-pcb-shape.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Raspberry Pi B(rev1)" modelIndex="6019" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Raspberry_Pi_B(rev1).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Raspberry Pi B(rev2)" modelIndex="6021" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Raspberry_Pi_B(rev2).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Raspberry Pi B+" modelIndex="6023" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Raspberry_Pi_B+.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>
