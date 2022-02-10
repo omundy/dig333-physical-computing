@@ -1,3 +1,9 @@
+# Windows
+Thumbs.db
+desktop.ini
+
+# OS X
 .DS_Store
-image.jpg
-*.pyc
+.Spotlight-V100
+.Trashes
+._*
